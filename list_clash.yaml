@@ -1,0 +1,191 @@
+proxies:
+  - name: 🇭🇰 GCP-HK-WS
+    server: hk.nionguan.ga
+    port: 443
+    type: vmess
+    uuid: 14c3464a-f023-47ee-a37c-9117fdffda83
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /
+    ws-headers: 
+      Host: hk.nionguan.ga
+
+  - name: 🇨🇳 GCP-TW-WS
+    server: tw.nionguan.gq
+    port: 443
+    type: vmess
+    uuid: 7df14a9e-fec5-4891-b1db-1a72a5c6316b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /
+    ws-headers: 
+      Host: tw.nionguan.gq
+
+  - name: 🇭🇰 GCP-HK2-WS
+    server: hk.nionguan.cf
+    port: 443
+    type: vmess
+    uuid: 9a271c3a-d309-499a-8800-455d1bde97e8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /
+    ws-headers: 
+      Host: hk.nionguan.cf
+
+  - name: 🇰🇷 GCP-KO-WS
+    server: ko.nionguan.pp.ua
+    port: 443
+    type: vmess
+    uuid: 1cbcbb93-8499-4267-af0e-f36ae93e5422
+    alterId: 233
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /
+    ws-headers: 
+      Host: ko.nionguan.pp.ua
+
+  - name: 🇺🇲 GCP-US-WS(Netflix🟢)
+    server: us.neuronguan.cf
+    port: 443
+    type: vmess
+    uuid: e3bd26e1-3ada-4562-ad0a-4311fa73768f
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /
+    ws-headers: 
+      Host: us.neuronguan.cf
+
+  - name: 🇩🇪 Euserv-DE-WS
+    server: de.xcworld.xyz
+    port: 443
+    type: vmess
+    uuid: 8195adc7-221d-4390-a9b2-d7642e44e46d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /hello
+    ws-headers: 
+      Host: de.xcworld.xyz
+
+  - name: 🇺🇲 Heroku-US-WS(Netflix🟢)
+    server: v2raynion.herokuapp.com
+    port: 443
+    type: vmess
+    uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /
+    ws-headers: 
+      Host: v2raynion.herokuapp.com
+
+  - name: 🇭🇰 GCP-HK-TCP
+    server: 35.220.165.231
+    port: 12345
+    type: vmess
+    uuid: 14c3464a-f023-47ee-a37c-9117fdffda83
+    alterId: 0
+    cipher: auto
+    tls: false
+
+  - name: 🇨🇳 GCP-TW-TCP
+    server: 34.80.233.193
+    port: 12345
+    type: vmess
+    uuid: 7df14a9e-fec5-4891-b1db-1a72a5c6316b
+    alterId: 0
+    cipher: auto
+    tls: false
+
+  - name: 🇭🇰 GCP-HK2-TCP
+    server: 34.92.20.144
+    port: 12345
+    type: vmess
+    uuid: 9a271c3a-d309-499a-8800-455d1bde97e8
+    alterId: 0
+    cipher: auto
+    tls: false
+
+  - name: 🇰🇷 GCP-KO-TCP
+    server: 34.64.207.230
+    port: 12345
+    type: vmess
+    uuid: 1cbcbb93-8499-4267-af0e-f36ae93e5422
+    alterId: 64
+    cipher: auto
+    tls: false
+
+  - name: 🇺🇲 GCP-US-TCP(Netflix🟢)
+    server: 35.194.73.17
+    port: 12345
+    type: vmess
+    uuid: e3bd26e1-3ada-4562-ad0a-4311fa73768f
+    alterId: 0
+    cipher: auto
+    tls: false
+
+  - name: 🇭🇰 GCP-HK-SS
+    server: 35.220.165.231
+    port: 35585
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 233blog.com
+
+  - name: 🇨🇳 GCP-TW-SS
+    server: 34.80.233.193
+    port: 47301
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 233blog.com
+
+  - name: 🇭🇰 GCP-HK2-SS
+    server: 34.92.20.144
+    port: 36409
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 233blog.com
+
+  - name: 🇰🇷 GCP-KO-SS
+    server: 34.64.207.230
+    port: 39742
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 233blog.com
+
+  - name: 🇰🇷 GCP-US-SS(Netflix🟢)
+    server: 35.194.73.17
+    port: 50892
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 233blog.com
+
+  - name: 🇺🇲 Heroku-US-SS
+    server: shadowsocksnion.herokuapp.com
+    port: 80
+    type: ss
+    cipher: aes-256-cfb
+    password: OeEEjoWqL4rbwQhN
+    plugin: v2ray-plugin
+    plugin-opts: 
+      mode: websocket
+      tls: false
+      host: shadowsocksnion.herokuapp.com
+      path: "/"
