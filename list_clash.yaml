@@ -170,7 +170,7 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 233blog.com
 
-  - name: 🇰🇷 GCP-US-SS(Netflix🟢)
+  - name: 🇺🇲 GCP-US-SS(Netflix🟢)
     server: 35.194.73.17
     port: 50892
     type: ss
