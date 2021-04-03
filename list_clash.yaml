@@ -176,16 +176,3 @@ proxies:
     type: ss
     cipher: chacha20-ietf-poly1305
     password: 233blog.com
-
-  - name: 🇺🇲 Heroku-US-SS
-    server: shadowsocksnion.herokuapp.com
-    port: 80
-    type: ss
-    cipher: aes-256-cfb
-    password: OeEEjoWqL4rbwQhN
-    plugin: v2ray-plugin
-    plugin-opts: 
-      mode: websocket
-      tls: false
-      host: shadowsocksnion.herokuapp.com
-      path: "/"
