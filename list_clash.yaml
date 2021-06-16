@@ -56,7 +56,7 @@ proxies:
       Host: us.neuronguan.cf
 
   - name: 🇩🇪 Euserv-DE-WS
-    server: de.xcworld.xyz
+    server: de.neuronguan.cf
     port: 443
     type: vmess
     uuid: 8195adc7-221d-4390-a9b2-d7642e44e46d
@@ -67,7 +67,7 @@ proxies:
     network: ws
     ws-path: /hello
     ws-headers: 
-      Host: de.xcworld.xyz
+      Host: de.neuronguan.cf
 
   - name: 🇺🇲 Heroku-US-WS(Netflix🟢)
     server: v2raynion.herokuapp.com
