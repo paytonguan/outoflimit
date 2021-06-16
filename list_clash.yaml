@@ -1,23 +1,9 @@
 proxies:
-  - name: 🇭🇰 GCP-HK-WS
-    server: hk.nionguan.ga
-    port: 443
-    type: vmess
-    uuid: 14c3464a-f023-47ee-a37c-9117fdffda83
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /
-    ws-headers: 
-      Host: hk.nionguan.ga
-
   - name: 🇨🇳 GCP-TW-WS
-    server: tw.nionguan.gq
+    server: tw.neuronguan.cf
     port: 443
     type: vmess
-    uuid: 7df14a9e-fec5-4891-b1db-1a72a5c6316b
+    uuid: 7d08e624-6936-408b-b85a-b90739e8ea4e
     alterId: 0
     cipher: auto
     tls: true
@@ -25,13 +11,13 @@ proxies:
     network: ws
     ws-path: /
     ws-headers: 
-      Host: tw.nionguan.gq
+      Host: tw.neuronguan.cf
 
-  - name: 🇭🇰 GCP-HK2-WS
-    server: hk.nionguan.cf
+  - name: 🇭🇰 GCP-HK-WS
+    server: hk.neuronguan.cf
     port: 443
     type: vmess
-    uuid: 9a271c3a-d309-499a-8800-455d1bde97e8
+    uuid: ef958edf-5559-4197-a11a-e54aa27a638a
     alterId: 0
     cipher: auto
     tls: true
@@ -39,7 +25,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers: 
-      Host: hk.nionguan.cf
+      Host: hk.neuronguan.cf
 
   - name: 🇰🇷 GCP-KO-WS
     server: ko.nionguan.pp.ua
@@ -97,15 +83,6 @@ proxies:
     ws-headers: 
       Host: v2raynion.herokuapp.com
 
-  - name: 🇭🇰 GCP-HK-TCP
-    server: 35.220.165.231
-    port: 12345
-    type: vmess
-    uuid: 14c3464a-f023-47ee-a37c-9117fdffda83
-    alterId: 0
-    cipher: auto
-    tls: false
-
   - name: 🇨🇳 GCP-TW-TCP
     server: 34.80.233.193
     port: 12345
@@ -115,7 +92,7 @@ proxies:
     cipher: auto
     tls: false
 
-  - name: 🇭🇰 GCP-HK2-TCP
+  - name: 🇭🇰 GCP-HK-TCP
     server: 34.92.20.144
     port: 12345
     type: vmess
@@ -142,13 +119,6 @@ proxies:
     cipher: auto
     tls: false
 
-  - name: 🇭🇰 GCP-HK-SS
-    server: 35.220.165.231
-    port: 35585
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 233blog.com
-
   - name: 🇨🇳 GCP-TW-SS
     server: 34.80.233.193
     port: 47301
@@ -156,7 +126,7 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 233blog.com
 
-  - name: 🇭🇰 GCP-HK2-SS
+  - name: 🇭🇰 GCP-HK-SS
     server: 34.92.20.144
     port: 36409
     type: ss
